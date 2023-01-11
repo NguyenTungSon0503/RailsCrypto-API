@@ -1,10 +1,12 @@
 namespace :api do
-    namespace :v1 do
-        scope :users, module: :users do
-            post '/', to: 'registrations#create', as: :user_registration
-          end
-       resources :cryptos 
+  namespace :v1 do
+    scope :users, module: :users do
+      post '/', to: 'registrations#create', as: :user_registration
+      patch '/', to: 'registrations#update_profile', as: :user_update_profile
     end
+    resources :books
+    get '/users/me', to: 'users#me'
+  end
 end
 
 scope :api do
