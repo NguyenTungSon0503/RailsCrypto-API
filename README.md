@@ -7,7 +7,7 @@ Backend: https://github.com/Deanout/doorkeeper
 Frontend : https://github.com/Deanout/react-wishlist-series/tree/main/frontend  
 Run backend in port 3000, frontend in port 3001  
 **HOW TO RUN BACKEND AND FRONTEND:**
-1. clone
+1. clone https://github.com/NguyenTungSon0503/doorkeeper-api.git
 2. bundle install
 3. rails db:drop   
    rails db:create  
