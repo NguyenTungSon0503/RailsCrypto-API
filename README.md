@@ -1,4 +1,4 @@
-**CRYPTOCURRENCY PROJECT FOR WEB PRACTICE SUBJECT**
+**CRYPTOCURRENCY PROJECT FOR WEB PRACTICE SUBJECT**  
 This project use Ruby On Rails, Postgresql for backend API, React-redux Reactjs Typescript for frontend  
 Ruby version: 3.1.2  
 Rails version: 7.0.4  
