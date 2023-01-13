@@ -3,6 +3,7 @@ This project use Ruby On Rails, Postgresql for backend API, React-redux Reactjs 
 Ruby version: 3.1.2  
 Rails version: 7.0.4  
 Postgresql verison: 12.12  
+Backend API using devise, doorkeeper, rack-cors gem  
 Backend: https://github.com/Deanout/doorkeeper  
 Frontend : https://github.com/Deanout/react-wishlist-series/tree/main/frontend  
 Run backend in port 3000, frontend in port 3001  
