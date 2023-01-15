@@ -102,11 +102,10 @@ function Signup() {
                   <FormControl fullWidth>
                     <InputLabel required htmlFor="email" id="email-label">Email Address</InputLabel>
                     <Input id="email" type="email" inputRef={emailRef}/>
-                    <FormHelperText id="email-helper-text">We&apos;ll never share your email.</FormHelperText>
                   </FormControl>
                 </FormGroup>
                 <FormGroup row={true} id="password-group" sx={{marginTop: "1em"}}>
-                  <FormControl fullWidth>
+                  <FormControl fullWidth> 
                     <InputLabel required htmlFor="password" id="password-label">Password</InputLabel>
                     {passwordInput}
                   </FormControl>
